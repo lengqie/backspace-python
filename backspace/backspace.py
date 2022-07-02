@@ -1,6 +1,8 @@
 from .kv import KV
 import time
 
+TIME_SLEEP = 0.7
+
 
 class Backspace:
     def __init__(self):
@@ -20,11 +22,12 @@ def n(num: int):
     return backspace.val * num
 
 
-kv = KV()
-
-
-def kvf():
-    pass
+def printl(print_list, time_sleep=TIME_SLEEP):
+    for i in print_list:
+        len_i = len(i)
+        print(i, end="")
+        time.sleep(time_sleep)
+        print(len_i * backspace.val, end="")
 
 
 def loading():
