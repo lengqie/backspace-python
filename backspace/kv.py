@@ -1,5 +1,5 @@
 class KV:
-    def __init__(self, k, v):
+    def __init__(self, k = "", v = ""):
         self.k = str(k)
         self.v = str(v)
 

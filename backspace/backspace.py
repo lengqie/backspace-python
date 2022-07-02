@@ -1,4 +1,6 @@
 from .kv import KV
+import time
+
 
 class Backspace:
     def __init__(self):
@@ -19,4 +21,14 @@ def n(num: int):
 
 
 kv = KV()
+
+
 def kvf():
+    pass
+
+
+def loading():
+    for i in range(10):
+        print("-", end="")
+        time.sleep(0.1)
+    print("100%")

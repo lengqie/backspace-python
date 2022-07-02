@@ -7,4 +7,5 @@ bs_val = bs.Backspace().val
 # print("hello", bs_val,"world",sep="")
 # print("hello", bs_val,"world",sep="")
 
-print(bs.n(-1))
+# print(bs.n(-1))
+bs.loading()
