@@ -13,7 +13,7 @@ bs_val = bs.Backspace().val
 kv = bs.KV()
 kv.print()
 
-bs.TIME_SLEEP = 8
-test_list = ["单词","撒旦","但是","赛弄得"]
+test_list = ["单词", "撒旦", "但是", "赛弄得"]
 
-bs.printl(test_list,2)
+print("key:", end=" ")
+bs.printl(test_list, 2)
