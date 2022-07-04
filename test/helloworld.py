@@ -18,7 +18,7 @@ kv.print()
 
 test_list = ["单词", "撒旦", "但是", "赛弄得"]
 
-print("key:", end=" ")
+print("key:", end="")
 bs.printl(test_list)
 
 

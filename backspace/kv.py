@@ -11,8 +11,5 @@ class KV:
         self.v.append(v_add)
 
     def print(self):
-        # print(self.k, ":", self.v)
-        print(self.k + ":",end="")
+        print(self.k + ":", end="")
         backspace.printl(self.v)
-
-

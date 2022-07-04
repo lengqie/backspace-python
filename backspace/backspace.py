@@ -22,16 +22,17 @@ def n(num: int):
     return backspace.val * num
 
 
-def printl(print_list, time_sleep=TIME_SLEEP, end: bool = False):
+def printl(print_list, time_sleep=TIME_SLEEP, last: bool = True, end: str = ""):
     len_l = len(print_list)
     for i in range(len_l):
         len_i = len(print_list[i])
         print(print_list[i], end="")
         time.sleep(time_sleep)
-        if end == False and i == len_l - 1:
+        if last is True and i == len_l - 1:
             print("")
         else:
             print(len_i * backspace.val, end="")
+        print(end, end="")
 
 
 def loading():
