@@ -10,15 +10,14 @@ bs_val = bs.Backspace().val
 
 # print(bs.n(-1))
 # bs.loading()
-kv = bs.KV("进度",)
-kv.add("0.1")
-kv.add("0.2")
-kv.add("0.3")
-kv.print()
+# kv = bs.KV("进度",)
+# kv.add("0.1")
+# kv.add("0.2")
+# kv.add("0.3")
+# kv.print()
 
 test_list = ["单词", "撒旦", "但是", "赛弄得"]
-
-print("key:", end="")
+#
+# print("key:", end="")
 bs.printl(test_list)
-
-
+print("1",end="")

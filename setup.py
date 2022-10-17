@@ -5,7 +5,7 @@ with open("README.md", "r",encoding='utf-8') as fh:
 
 setuptools.setup(
     name="backspace",
-    version="0.0.1",
+    version="0.0.2",
     author="lengqie",
     author_email="lengqie@foxmail.com",
     description="backspace formatting tool",

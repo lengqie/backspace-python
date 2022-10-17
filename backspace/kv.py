@@ -10,6 +10,6 @@ class KV:
     def add(self, v_add):
         self.v.append(v_add)
 
-    def print(self):
+    def print(self, save: bool = True):
         print(self.k + ":", end="")
         backspace.printl(self.v)

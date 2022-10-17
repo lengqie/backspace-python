@@ -13,7 +13,7 @@ backspace = Backspace()
 
 
 def greeting():
-    print("hello" + backspace.val + "world")
+    print("hello" + backspace.val + "backspace")
 
 
 def n(num: int):
@@ -22,17 +22,23 @@ def n(num: int):
     return backspace.val * num
 
 
-def printl(print_list, time_sleep=TIME_SLEEP, last: bool = True, end: str = ""):
+# print list
+def printl(print_list, time_sleep=TIME_SLEEP, last: bool = True, end: str = "\n", save: int = -1):
+    # print_list:  list to be print
+    # time_sleep: time of sleep
+    # last: is last
+    # end: end string
+    # save: ???
+
     len_l = len(print_list)
     for i in range(len_l):
         len_i = len(print_list[i])
         print(print_list[i], end="")
         time.sleep(time_sleep)
         if last is True and i == len_l - 1:
-            print("")
+            print("", end=end)
         else:
             print(len_i * backspace.val, end="")
-        print(end, end="")
 
 
 def loading():
